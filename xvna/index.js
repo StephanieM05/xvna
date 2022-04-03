@@ -34,7 +34,7 @@ app.post('/api/users', function (req, res) {
 	else {
 		var searchstring = {
 			email: req.body.email
-			, password: req.body.password
+			, password: req.body.password 
 		}
 	}
 	console.log("searchstring", searchstring)
